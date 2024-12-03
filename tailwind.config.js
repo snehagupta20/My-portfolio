@@ -10,7 +10,7 @@ export default {
         'lightGreen' : "#2e5e63",
         'green' : "#073a43",
         'darkGreen' : "#022a30",
-        'yellow' : "#e0f780",
+        'my-yellow' : "#e0f780",
         'offWhite' : "#eef3db",
         'lightGray' : "#b6cbce",
       }
