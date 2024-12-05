@@ -1,5 +1,6 @@
 import React from "react";
 import { WhiteHeading, YellowHeading } from "./Heading";
+import { motion } from "framer-motion";
 
 export function BigCard(props){
     return(
@@ -13,16 +14,20 @@ export function BigCard(props){
 
 export function SmallCards(props){
     return(
-        <div className={`py-3 bg-lightGreen w-[9rem] h-max text-center text-lightGray font-bold rounded-md ${props.class} `}>
+        <motion.div 
+        className={`py-3 bg-lightGreen w-[9rem] h-max text-center text-lightGray font-bold rounded-md ${props.class} `}
+        whileHover={{scale: 1.2}}
+        transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        >
             <div className="flex justify-center bg-my-yellow w-min rounded-xl p-2  text-darkGreen m-auto my-2" >{props.icon}</div>
             <p className="text-sm" >{props.children}</p>
-        </div>
+        </motion.div>
     );
 };
 
 export function SkillCard(props){
     return(
-        <div className={`flex flex-col bg-green px-8 py-4 w-max rounded-xl hover:shadow-yellow-shadow transition-shadow`} >
+        <div className={`flex flex-col bg-green px-8 py-4 w-max rounded-xl`} >
             <WhiteHeading class="text-lg" >{props.heading}</WhiteHeading>
             <div className={`my-3 grid grid-cols-3 gap-3`} >
                 {props.children}

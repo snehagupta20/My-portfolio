@@ -3,6 +3,8 @@ import Introduction from "./Introduction";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function Home(){
     return(
@@ -11,6 +13,8 @@ export default function Home(){
             <Education/>
             <Experience/>
             <Skills/>
+            <Contact/>
+            <Footer/>
         </div>
     )
 };

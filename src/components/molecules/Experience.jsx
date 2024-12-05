@@ -8,7 +8,7 @@ export default function Experience(){
         <Section>
             <WhiteHeading class="text-3xl mb-4 " >EXPERIENCE</WhiteHeading>
             <BigCard
-                class="w-[100%]"
+                class="!w-[100%]"
                 white="StatusNeo- INDIGO " 
                 yellow="Software Development Intern : May '24 - July '24 (3 Months)" 
                 p=
@@ -19,7 +19,7 @@ export default function Experience(){
                 </ul>}
             />
             <BigCard 
-                class="w-[100%]"
+                class="!w-[100%]"
                 white="NSUT - CONVOCATION DEPARTMENT" 
                 yellow="Lead Developer : Aug '24 - Oct '24 (2 Months)" 
                 p=

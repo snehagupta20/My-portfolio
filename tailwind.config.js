@@ -16,6 +16,7 @@ export default {
       },
       boxShadow: {
         'yellow-shadow' : '-5px 5px 0 1px rgb(224, 247, 128)',
+        'background-blur' : '0 10px 0 10px rgb(224, 247, 128)'
       }
     },
   },

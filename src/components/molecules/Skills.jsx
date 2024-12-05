@@ -16,6 +16,9 @@ import MysqlIcon from "../../assets/icons/MySQLIcon";
 import MongodbIcon from "../../assets/icons/MongodbIcon";
 import PostmanIcon from "../../assets/icons/Postman";
 import GitIcon from "../../assets/icons/GitIcon";
+import GithubIcon from "../../assets/icons/GithubIcon";
+import DockerIcon from "../../assets/icons/DockerIcon";
+import FigmaIcon from "../../assets/icons/FigmaIcon";
 
 export default function Skills(){
     return(
@@ -25,10 +28,10 @@ export default function Skills(){
             <div className="grid grid-cols-2 gap-y-4 gap-x-12" >
 
                 <SkillCard heading="Frontend Development">
-                    <SmallCards icon={<ReactIcon/>} >React.js</SmallCards>
-                    <SmallCards icon={<TypescriptIcon/>}>TypeScript</SmallCards>
-                    <SmallCards icon={<JavascriptIcon/>}>JavaScript</SmallCards>
                     <SmallCards icon={<NextjsIcon/>}>Next.js</SmallCards>
+                    <SmallCards icon={<TypescriptIcon/>}>TypeScript</SmallCards>
+                    <SmallCards icon={<ReactIcon/>} >React.js</SmallCards>
+                    <SmallCards icon={<JavascriptIcon/>}>JavaScript</SmallCards>
                     <SmallCards icon={<TailwindcssIcon/>}>Tailwind.css</SmallCards>
                     <SmallCards icon={<BootstrapIcon/>} class="mr-0" >Bootstrap</SmallCards>
                 </SkillCard>
@@ -44,14 +47,13 @@ export default function Skills(){
 
                 <SkillCard heading="Development Tools">
                     <SmallCards icon={<GitIcon/>} >Git</SmallCards>
-                    <SmallCards icon={<PythonIcon/>}>Github</SmallCards>
-                    <SmallCards icon={<PythonIcon/>}>MySQL</SmallCards>
-                    <SmallCards icon={<PythonIcon/>}>Docker</SmallCards>
-                    <SmallCards icon={<PythonIcon/>} class="mr-0" >Figma</SmallCards>
+                    <SmallCards icon={<GithubIcon/>}>Github</SmallCards>
+                    <SmallCards icon={<DockerIcon/>}>Docker</SmallCards>
+                    <SmallCards icon={<FigmaIcon/>} class="mr-0" >Figma</SmallCards>
                 </SkillCard>
 
                 <SkillCard heading="Programming Languages">
-                    <SmallCards icon={<PythonIcon/>} >C/C++</SmallCards>
+                    <SmallCards icon={<CppIcon/>} >C/C++</SmallCards>
                     <SmallCards icon={<PythonIcon/>} class="mr-0" >Python</SmallCards>
                 </SkillCard>
 
