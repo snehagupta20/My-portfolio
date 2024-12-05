@@ -13,6 +13,9 @@ export default {
         'my-yellow' : "#e0f780",
         'offWhite' : "#eef3db",
         'lightGray' : "#b6cbce",
+      },
+      boxShadow: {
+        'yellow-shadow' : '-5px 5px 0 1px rgb(224, 247, 128)',
       }
     },
   },

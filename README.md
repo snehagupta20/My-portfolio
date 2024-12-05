@@ -5,3 +5,6 @@
 - variants for hamburger
 - slideshow of pictures in skills section
 - mayukh's footer animation
+
+
+- when i hover over the skills boxes, each skill should pop up and the box as well.
