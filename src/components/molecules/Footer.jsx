@@ -13,41 +13,39 @@ import IconInstagram from "../../assets/icons/InstagramIcon";
 
 
 export default function Footer(){
-    // home, resume, github linkdin, x, mail, instagram
     const links = [
         {
             title: 'Resume',
             icon : (<FooterIcons><ResumeIcon/></FooterIcons>),
-            hred: '#',
+            href: 'https://drive.google.com/file/d/1wAAhh6h0wdTXwiSwadZ8bOwxrKIugX-b/view?usp=sharing',
         },
         {
             title: 'Github',
             icon : (<FooterIcons><GithubIcon/></FooterIcons>),
-            hred: '#',
+            href: 'https://github.com/snehagupta20',
         },
         {
             title: 'LinkdIn',
             icon : (<FooterIcons><IconLinkedin/></FooterIcons>),
-            hred: '#',
+            href: 'https://www.linkedin.com/in/sneha-gupta-2004abcdef/',
         },
         {
             title: 'Twitter',
             icon : (<FooterIcons><IconTwitter/></FooterIcons>),
-            hred: '#',
+            href: 'https://x.com/namastesneha20',
         },
         {
             title: 'E-Mail',
             icon : (<FooterIcons><IconGmail/></FooterIcons>),
-            hred: '#',
+            href: 'mailto:20namastesneha@gmail.com',
         },
         {
             title: 'Instagram',
             icon : (<FooterIcons><IconInstagram/></FooterIcons>),
-            hred: '#',
+            href: 'https://www.instagram.com/namastesneha/?hl=en',
         },
     ] ;
 
-    let mouseX = useMotionValue(Infinity);
 
     return(
 

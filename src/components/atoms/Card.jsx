@@ -35,3 +35,22 @@ export function SkillCard(props){
         </div>
     );
 };
+
+export function ProjectCard(props){
+    return(
+        <div className="w-[35rem] h-[30rem] flex flex-col rounded-xl border-4 border-white" >
+            <div className="w-[34.5rem] h-[20rem] flex " >
+                <img className=" rounded-md w-[34.5rem] !h-[20rem]" src={props.src} alt={props.alt} />
+            </div>
+
+            <div className="p-4" >
+                <WhiteHeading class="text-xl mb-2" >{props.heading}</WhiteHeading>
+                <p className="text-md mb-2" >{props.desc}</p>
+                <div className="flex" >
+                    <button className="text-lightGray font-bold  mr-2" >Project Link</button>
+                    <button className="text-lightGray font-bold ">Github Link</button>
+                </div>
+            </div>
+        </div>
+    );
+};

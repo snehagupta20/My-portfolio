@@ -7,7 +7,7 @@ import { FlipWords } from "../ui/FlipWords";
 export default function Introduction(){
     const words=["Developer", "Designer", "Coder", "Solver", "Dancer", "Football player", ]
     return(
-        <Section>
+        <Section id="home">
             <header className="flex pb-4">
                 <YellowHeading class="text-6xl" >SNEHA GUPTA,</YellowHeading>
                 <WhiteHeading class="text-5xl indent-1" ><FlipWords className="text-2xl" words={words}/></WhiteHeading>
@@ -24,8 +24,8 @@ export default function Introduction(){
                 </p>
             </main>
             <footer className="flex ">
-                <YellowButton class="mr-4" >Explore My Work</YellowButton>
-                <YellowButton class="mr-4" >Resume</YellowButton>
+                <a href="#project" ><YellowButton class="mr-4" >Explore My Work</YellowButton></a>
+                <a href="https://drive.google.com/file/d/1wAAhh6h0wdTXwiSwadZ8bOwxrKIugX-b/view?usp=sharing" target="_blank" ><YellowButton class="mr-4" >Resume</YellowButton></a>
                 <p>Call: 91+ 9811901301</p>
             </footer>
         </Section>

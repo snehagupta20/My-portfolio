@@ -2,7 +2,7 @@ import React from "react";
 
 export function YellowHeading(props){
     return(
-        <h1 className={`text-my-yellow font-extrabold ${props.class} `}>
+        <h1 id={props.id} className={`text-my-yellow font-extrabold ${props.class} `}>
             {props.children}
         </h1>
     );

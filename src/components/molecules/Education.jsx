@@ -5,7 +5,7 @@ import {BigCard} from "../atoms/Card";
 
 export default function Education(){
     return(
-        <Section>
+        <Section id="education">
             <WhiteHeading class="text-3xl mb-4 " >EDUCATION</WhiteHeading>
             <BigCard 
                 white="Netaji Subhas University of Technology" 

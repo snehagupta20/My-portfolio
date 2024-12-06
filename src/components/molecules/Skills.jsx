@@ -22,7 +22,7 @@ import FigmaIcon from "../../assets/icons/FigmaIcon";
 
 export default function Skills(){
     return(
-        <Section class="flex" >
+        <Section id="skills" class="flex mb-[16rem]" >
             <WhiteHeading class="text-3xl mb-4 " >MY SKILLS</WhiteHeading>
 
             <div className="grid grid-cols-2 gap-y-4" >

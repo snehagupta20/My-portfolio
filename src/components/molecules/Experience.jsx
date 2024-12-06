@@ -5,7 +5,7 @@ import {BigCard} from "../atoms/Card";
 
 export default function Experience(){
     return(
-        <Section>
+        <Section id="experience">
             <WhiteHeading class="text-3xl mb-4 " >EXPERIENCE</WhiteHeading>
             <BigCard
                 class="!w-[100%]"
