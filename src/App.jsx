@@ -6,8 +6,6 @@ import Sidebar from './components/molecules/Sidebar'
 import Home from './components/molecules/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Sidebar></Sidebar>

@@ -25,7 +25,7 @@ export default function Skills(){
         <Section class="flex" >
             <WhiteHeading class="text-3xl mb-4 " >MY SKILLS</WhiteHeading>
 
-            <div className="grid grid-cols-2 gap-y-4 gap-x-12" >
+            <div className="grid grid-cols-2 gap-y-4" >
 
                 <SkillCard heading="Frontend Development">
                     <SmallCards icon={<NextjsIcon/>}>Next.js</SmallCards>

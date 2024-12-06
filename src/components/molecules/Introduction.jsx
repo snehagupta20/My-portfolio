@@ -2,13 +2,15 @@ import React from "react";
 import { WhiteHeading, YellowHeading } from "../atoms/Heading";
 import { YellowButton } from "../atoms/Buttons";
 import Section from "../atoms/Section";
+import { FlipWords } from "../ui/FlipWords";
 
 export default function Introduction(){
+    const words=["Developer", "Designer", "Coder", "Solver", "Dancer", "Football player", ]
     return(
         <Section>
             <header className="flex pb-4">
                 <YellowHeading class="text-6xl" >SNEHA GUPTA,</YellowHeading>
-                <WhiteHeading class="text-5xl indent-4" >INDIA</WhiteHeading>
+                <WhiteHeading class="text-5xl indent-1" ><FlipWords className="text-2xl" words={words}/></WhiteHeading>
             </header>
             <main className="pb-8">
                 <p className="text-lightGray text-xl font-light leading-8 " >
