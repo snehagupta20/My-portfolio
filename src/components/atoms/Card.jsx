@@ -38,17 +38,20 @@ export function SkillCard(props){
 
 export function ProjectCard(props){
     return(
-        <div className="w-[35rem] h-[30rem] flex flex-col rounded-xl border-4 border-white" >
+        <div className="w-[32.5rem] h-[32rem] flex flex-col rounded-xl border-4 border-offWhite hover:border-my-yellow" >
             <div className="w-[34.5rem] h-[20rem] flex " >
-                <img className=" rounded-md w-[34.5rem] !h-[20rem]" src={props.src} alt={props.alt} />
+                <img className=" rounded-md w-[32rem] !h-[20rem]" src={props.src} alt={props.heading} />
             </div>
 
-            <div className="p-4" >
-                <WhiteHeading class="text-xl mb-2" >{props.heading}</WhiteHeading>
-                <p className="text-md mb-2" >{props.desc}</p>
+            <div className="p-4 flex flex-col justify-between h-full" >
+                <div>
+                    <WhiteHeading class="text-xl mb-2" >{props.heading}</WhiteHeading>
+                    <p className="text-md mb-2" >{props.desc}</p>
+                </div>
                 <div className="flex" >
-                    <button className="text-lightGray font-bold  mr-2" >Project Link</button>
-                    <button className="text-lightGray font-bold ">Github Link</button>
+                    <a href={props.projectLink} target="_blank" ><button className="text-lightGray font-bold  mr-2 hover:text-my-yellow " >Project Link</button></a>
+                    <p className="mr-2 text-gray-600">|</p>
+                    <a href={props.githubLink} target="_blank" ><button className="text-lightGray font-bold hover:text-my-yellow ">Github Link</button></a>
                 </div>
             </div>
         </div>

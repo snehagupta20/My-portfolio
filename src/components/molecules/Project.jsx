@@ -2,10 +2,12 @@ import React from "react";
 import Section from "../atoms/Section";
 import { WhiteHeading, YellowHeading } from "../atoms/Heading";
 import { ProjectCard } from "../atoms/Card";
-import project1 from "../../assets/projects/project 1.jpg";
-import project2 from "../../assets/projects/project2.png";
-import project3 from "../../assets/projects/project 3.jpg";
-import project4 from "../../assets/projects/project4.png";
+import project1 from "../../assets/projects/react_essentials.png";
+import project2 from "../../assets/projects/simon_game.png";
+import project3 from "../../assets/projects/taj_palace_hotel.png";
+import project4 from "../../assets/projects/dog_tinder.png";
+
+
 
 
 export default function Project(){
@@ -16,27 +18,31 @@ export default function Project(){
             <div className="grid grid-cols-2 gap-y-16 gap-x-[5rem]" >
                 <ProjectCard 
                     src={project1}
-                    alt="project 1"
-                    heading="project 1"
-                    desc="project 1"
+                    heading="React Essentials"
+                    desc="Developed a ReactJS-based platform with reusable, dynamic UI components using TailwindCSS, HTML, and CSS for a clean, responsive, and modular learning experience."
+                    projectLink="https://react-essentials-two.vercel.app/"
+                    githubLink="https://github.com/snehagupta20/react-essentials-web"
                 />
                 <ProjectCard 
                     src={project2}
-                    alt="project 1"
-                    heading="project 1"
-                    desc="project 1"
+                    heading="Simon Game"
+                    desc="Created an interactive Simon Game using JavaScript, jQuery, HTML, and CSS, offering dynamic user interactions and a responsive, engaging design."
+                    projectLink="https://snehagupta20.github.io/simon-game/"
+                    githubLink="https://github.com/snehagupta20/simon-game"
                 />
                 <ProjectCard 
                     src={project3}
-                    alt="project 1"
-                    heading="project 1"
-                    desc="project 1"
+                    heading="Taj Palace Hotel"
+                    desc="A visually stunning website showcasing the elegance and grandeur of 'Taj Lake Palace Hotel' in Udaipur, incorporating CSS, JS, and HTML to create an immersive user experience."
+                    projectLink="https://snehagupta20.github.io/taj-palace-hotel/"
+                    githubLink="https://github.com/snehagupta20/taj-palace-hotel"
                 />
                 <ProjectCard 
                     src={project4}
-                    alt="project 1"
-                    heading="project 1"
-                    desc="project 1"
+                    heading="Doozy"
+                    desc="Doozy: Unleash love at first sniff with the ultimate canine matchmaking platform"
+                    projectLink="https://snehagupta20.github.io/Doozy-website/"
+                    githubLink="https://github.com/snehagupta20/Doozy-website"
                 />
             </div>
         </Section>
