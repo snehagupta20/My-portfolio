@@ -1,5 +1,5 @@
 import React from "react";
-import potrait from "../../assets/image.png";
+import potrait from "../../assets/potrait-4.jpg";
 import Navlink from "../atoms/Navlink";
 
 export default function Sidebar(){
